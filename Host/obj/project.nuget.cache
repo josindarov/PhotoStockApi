@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "reaPxXDhIrgtsDqg6yKS7poQQRRg/10xLUXj6Ptka1riAbCuwZejlbO6O10PcMWUrMPfjTSBdIYDkl6Ht4j8Ng==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Host\\Host.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\99899\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\99899\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\99899\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\99899\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\99899\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\99899\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
