@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Application\\Application.csproj": {}
+    "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Application\\Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Application\\Application.csproj": {
+    "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\99899\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Application\\obj\\",
+        "outputPath": "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\99899\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Domain\\Domain.csproj"
+              "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Domain\\Domain.csproj"
               }
             }
           }
@@ -43,6 +43,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,14 +80,14 @@
         }
       }
     },
-    "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Domain\\Domain.csproj": {
+    "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\99899\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\99899\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -97,6 +115,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

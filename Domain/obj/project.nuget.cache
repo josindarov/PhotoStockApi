@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "1eO5MNtiVQyfxtyE94nswwOQb+mnSjlEy8RLk23rj4izYIRs2PmYnKgPu0uIGvgLWWq23q3r6fAk1xiENqKR/w==",
+  "dgSpecHash": "mNtsRu1WXRZD0PmIQXxvSxx02v1Wz98fAIMwqZLZnSfHR7iqVOZxyLFfU58N1vcBR/27yt3BPtuLZ5QfXJ7HRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\99899\\Desktop\\Learning C#\\PhotoStockAPI\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\99899\\Desktop\\LearningCsharp\\PhotoStockAPI\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\99899\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\99899\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\99899\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
